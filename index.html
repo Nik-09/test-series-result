@@ -3,7 +3,7 @@
     <head>
         <title>Result</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="./index.js"></script>
+        <link rel="stylesheet" href="./index.css">
     </head>
     <body>
         <header>
@@ -16,16 +16,69 @@
         <div>
             Result for phase one.
             <hr>
-            <form>
+            <form action="/" method="GET" id="studentNameAndRoll">
                 <label>Name</label>
-                <input type="text">
+                <input type="text" id="studName">
                 <label>Roll number</label>
-                <input type="text">
+                <input type="text" id="studRoll">
+
+                <input type="submit" value="Submit">
             </form>
         </div>
-        <button onclick="getData()">Get data</button>
+        <div id="result">
+            <table>
+                <tr>
+                    <td>History</td>
+                    <td>
+                        <div id="history">
+                            <p>Hell</p>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Geography</td>
+                    <td>
+                        <span id="geography"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Math</td>
+                    <td>
+                        <span id="math"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Life Science</td>
+                    <td>
+                        <span id="lifeScience"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Hindi</td>
+                    <td>
+                        <span id="hindi"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Physical Science</td>
+                    <td>
+                       <span id="physicalScience"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>English</td>
+                    <td>
+                        <span id="english"></span>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="errorMsg">
+            Sorry no record present for this Name and Roll number.
+        </div>
         <footer>
 
         </footer>
+        <script src="./index.js"></script>
     </body>
 </html>

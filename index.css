@@ -1,0 +1,9 @@
+body {
+}
+
+#result {
+    display: none;
+}
+#errorMsg {
+    display: none;
+}
