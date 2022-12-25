@@ -7,3 +7,21 @@ body {
 #errorMsg {
     display: none;
 }
+.header-text {
+    text-align: center;
+    font-size:xx-large;
+}
+.search-button {
+    background: white;
+    text-align: center;
+    margin: 10px 0;
+    font-size: large;
+    border-radius: 10px;
+    width: 100px;
+}
+.input-fields {
+    margin: 10px;
+}
+.label {
+    font-weight: bold;
+}

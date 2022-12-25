@@ -6,23 +6,28 @@
         <link rel="stylesheet" href="./index.css">
     </head>
     <body>
-        <header>
-            <div>
-                <strong>
-                    Study @ A<sup>2</sup>
-                </strong>
-            </div>
-        </header>
-        <div>
-            Result for phase one.
+        <div class="header-text">
+            <strong>
+                Study @ A<sup>2</sup>
+            </strong>
             <hr>
+        </div>
+        <div>
+            <p>Result declaration for the <strong>Phase 1</strong> of <strong>Exam-O-utsav</strong></p>
+            <br>
             <form action="https://nik-09.github.io/test-series-result.github.io/" method="GET" id="studentNameAndRoll">
-                <label>Name</label>
-                <input type="text" id="studName">
-                <label>Roll number</label>
-                <input type="text" id="studRoll">
+                <div>
+                    <div class="input-fields">
+                        <label class="label">Name</label>
+                        <input type="text" id="studName">
+                    </div>
+                    <div class="input-fields">
+                        <label class="label">Roll number</label>
+                        <input type="text" id="studRoll">
+                    </div>
+                </div>
 
-                <input type="submit" value="Submit">
+                <input type="submit" value="Submit" class="search-button input-fields">
             </form>
         </div>
         <div id="result">
@@ -30,9 +35,7 @@
                 <tr>
                     <td>History</td>
                     <td>
-                        <div id="history">
-                            <p>Hell</p>
-                        </div>
+                        <span id="history"></span>
                     </td>
                 </tr>
                 <tr>
