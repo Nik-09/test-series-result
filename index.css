@@ -1,4 +1,5 @@
 body {
+
 }
 
 #result {
@@ -24,4 +25,10 @@ body {
 }
 .label {
     font-weight: bold;
+}
+#quote {
+    font-size: large;
+}
+#info {
+    font-size: x-large
 }

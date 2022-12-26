@@ -10,17 +10,18 @@
             <strong>
                 Study @ A<sup>2</sup>
             </strong>
+            <p id="quote">Get ready to unlock your potential</p>
             <hr>
         </div>
         <div>
-            <p>Result declaration for the <strong>Phase 1</strong> of <strong>Exam-O-utsav</strong></p>
+            <p id="info">Result declaration for the <strong>Phase 1</strong> of <strong>Exam-O-utsav</strong></p>
             <br>
             <form action="https://nik-09.github.io/test-series-result.github.io/" method="GET" id="studentNameAndRoll">
                 <div>
-                    <div class="input-fields">
+                    <!-- <div class="input-fields">
                         <label class="label">Name</label>
                         <input type="text" id="studName">
-                    </div>
+                    </div> -->
                     <div class="input-fields">
                         <label class="label">Roll number</label>
                         <input type="text" id="studRoll">
@@ -31,6 +32,9 @@
             </form>
         </div>
         <div id="result">
+            <h3>
+                Name: <span id="sName"></span>
+            </h3>
             <table>
                 <tr>
                     <td>History</td>
@@ -75,9 +79,14 @@
                     </td>
                 </tr>
             </table>
+            <br>
+            <strong>
+                Total:
+                <span id="total"></span>
+            </strong>
         </div>
         <div id="errorMsg">
-            Sorry no record present for this Name and Roll number.
+            Sorry no record present for this roll number.
         </div>
         <footer>
 

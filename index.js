@@ -1,4 +1,4 @@
-studName = document.getElementById('studName');
+// studName = document.getElementById('studName');
 studRoll = document.getElementById('studRoll');
 let resultId = document.getElementById('result');
 let errorMsg = document.getElementById('errorMsg')
@@ -9,18 +9,18 @@ let physicalScience = document.getElementById('physicalScience');
 let hindi = document.getElementById('hindi');
 let english = document.getElementById('english');
 let math = document.getElementById('math');
+let sName = document.getElementById('sName');
+let total = document.getElementById('total');
 
 form = document.getElementById('studentNameAndRoll');
 
 form.addEventListener('submit', (e) => {
 
-    studentName = studName.value;
     studentRoll = studRoll.value;
     let dataFound = false;
-
     for (let result of resultsData) {
+        console.log(result.name + '---');
         if (
-            studentName == result.name &&
             studentRoll == result.roll
         ) {
             // Updating marks.
@@ -31,6 +31,8 @@ form.addEventListener('submit', (e) => {
             hindi.innerHTML = result.hindi;
             english.innerHTML = result.english;
             math.innerHTML = result.math;
+            sName.innerHTML = result.name;
+            total.innerHTML = result.total;
 
             dataFound = true
             resultId.style.display = "block";
@@ -63,13 +65,14 @@ let resultsData = [
     {
         "name": "Nikhil",
         "roll": "120",
-        "history": "130",
+        "history": "",
         "geography": "100",
         "lifeScience": "20",
         "physicalScience": "30",
         "hindi": "30",
         "english": "40",
-        "math": "100"
+        "math": "100",
+        "total": "400"
     },
     {
         "name": "Rohit",
@@ -80,6 +83,7 @@ let resultsData = [
         "physicalScience": "30",
         "hindi": "30",
         "english": "40",
-        "math": "100"
+        "math": "100",
+        "total": "200"
     }
 ];
