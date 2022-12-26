@@ -1,4 +1,3 @@
-// studName = document.getElementById('studName');
 studRoll = document.getElementById('studRoll');
 let resultId = document.getElementById('result');
 let errorMsg = document.getElementById('errorMsg')
@@ -23,12 +22,9 @@ function normalize(marks) {
 }
 
 form.addEventListener('submit', (e) => {
-
     studentRoll = 'A2/' + studRoll.value + '/2023';
-    console.log(studentRoll)
     let dataFound = false;
     for (let result of resultsData) {
-        console.log(result.name + '---');
         if (
             studentRoll == result.roll
         ) {
