@@ -196,8 +196,8 @@ let resultsData = [
       "geography": 42,
       "lifeScience": 40,
       "physicalScience": 52,
-      "math": null,
-      "total": 249
+      "math": 57,
+      "total": 306
     },
     {
       "name": "Piyush Kr Singh",
@@ -216,12 +216,12 @@ let resultsData = [
       "roll": "A2/0881/2023",
       "hindi": 32,
       "english": 45,
-      "history": null,
+      "history": 45,
       "geography": 44,
       "lifeScience": 41,
       "physicalScience": 38,
       "math": 47,
-      "total": 247
+      "total": 292
     },
     {
       "name": "Radhika Chandak",
@@ -312,12 +312,12 @@ let resultsData = [
       "roll": "A2/0954/2023",
       "hindi": 24,
       "english": 41,
-      "history": null,
+      "history": 23,
       "geography": 24,
       "lifeScience": 22,
       "physicalScience": 23,
       "math": 44,
-      "total": 178
+      "total": 201
     },
     {
       "name": "Pranjal Rai",
@@ -337,11 +337,11 @@ let resultsData = [
       "hindi": 20,
       "english": 41,
       "history": 21,
-      "geography": null,
+      "geography": 27,
       "lifeScience": 21,
       "physicalScience": 18,
       "math": 43,
-      "total": 164
+      "total": 191
     },
     {
       "name": "Puja Yadav",
@@ -396,12 +396,12 @@ let resultsData = [
       "roll": "A2/0873/2023",
       "hindi": 20,
       "english": 31,
-      "history": null,
+      "history": 32,
       "geography": 18,
       "lifeScience": 16,
       "physicalScience": 22,
       "math": 36,
-      "total": 143
+      "total": 175
     },
     {
       "name": "Priyanshu Rai",
@@ -420,12 +420,12 @@ let resultsData = [
       "roll": "A2/0891/2023",
       "hindi": 19,
       "english": 50,
-      "history": null,
+      "history": 26,
       "geography": 25,
       "lifeScience": 17,
       "physicalScience": 19,
       "math": 12,
-      "total": 142
+      "total": 168
     },
     {
       "name": "Riya yadav",
@@ -444,12 +444,12 @@ let resultsData = [
       "roll": "A2/0945/2023",
       "hindi": 24,
       "english": 41,
-      "history": null,
+      "history": 16,
       "geography": 16,
       "lifeScience": 19,
       "physicalScience": 14,
       "math": 27,
-      "total": 141
+      "total": 157
     },
     {
       "name": "Eklavya Tiwari",
@@ -459,9 +459,9 @@ let resultsData = [
       "history": 31,
       "geography": 15,
       "lifeScience": 17,
-      "physicalScience": null,
+      "physicalScience": 18,
       "math": 25,
-      "total": 138
+      "total": 156
     },
     {
       "name": "Diksha Pathak",
@@ -480,12 +480,12 @@ let resultsData = [
       "roll": "A2/0912/2023",
       "hindi": 19,
       "english": 38,
-      "history": null,
+      "history": 36,
       "geography": 30,
       "lifeScience": 17,
       "physicalScience": 29,
       "math": 1,
-      "total": 134
+      "total": 170
     },
     {
       "name": "Bhakti Gupta",
@@ -494,10 +494,10 @@ let resultsData = [
       "english": 50,
       "history": 17,
       "geography": 17,
-      "lifeScience": null,
+      "lifeScience": 17,
       "physicalScience": 19,
       "math": null,
-      "total": 134
+      "total": 151
     },
     {
       "name": "Ansika Rajak",
@@ -528,12 +528,12 @@ let resultsData = [
       "roll": "A2/0875/2023",
       "hindi": 13,
       "english": 40,
-      "history": null,
+      "history": 22,
       "geography": 27,
       "lifeScience": 24,
       "physicalScience": 20,
       "math": 7,
-      "total": 131
+      "total": 153
     },
     {
       "name": "Umang Singh",
@@ -576,12 +576,12 @@ let resultsData = [
       "roll": "A2/0889/2023",
       "hindi": 15,
       "english": 37,
-      "history": null,
+      "history": 17,
       "geography": 14,
       "lifeScience": 16,
       "physicalScience": 19,
       "math": 25,
-      "total": 126
+      "total": 143
     },
     {
       "name": "Komal Shaw",
@@ -637,11 +637,11 @@ let resultsData = [
       "hindi": 18,
       "english": 35,
       "history": null,
-      "geography": null,
+      "geography": 27,
       "lifeScience": 22,
       "physicalScience": 26,
       "math": 11,
-      "total": 112
+      "total": 139
     },
     {
       "name": "Radhika Asopa",
@@ -724,7 +724,7 @@ let resultsData = [
       "geography": 8,
       "lifeScience": 8,
       "physicalScience": 13,
-      "math": null,
+      "math": 8,
       "total": 100
     },
     {
@@ -733,11 +733,11 @@ let resultsData = [
       "hindi": 22,
       "english": 33,
       "history": 17,
-      "geography": null,
+      "geography": 8,
       "lifeScience": 12,
       "physicalScience": 8,
       "math": 7,
-      "total": 99
+      "total": 107
     },
     {
       "name": "Harsh upadhyay",
@@ -756,24 +756,24 @@ let resultsData = [
       "roll": "A2/0880/2023",
       "hindi": 19,
       "english": 31,
-      "history": null,
+      "history": 16,
       "geography": 17,
       "lifeScience": 8,
       "physicalScience": 15,
       "math": 5,
-      "total": 95
+      "total": 111
     },
     {
       "name": "Satyam Choudhry",
       "roll": "A2/0886/2023",
       "hindi": 14,
       "english": 37,
-      "history": null,
+      "history": 18,
       "geography": 7,
       "lifeScience": 15,
       "physicalScience": 9,
       "math": 13,
-      "total": 95
+      "total": 113
     },
     {
       "name": "Suryakant Shaw",
@@ -792,12 +792,12 @@ let resultsData = [
       "roll": "A2/0870/2023",
       "hindi": null,
       "english": null,
-      "history": null,
+      "history": 28,
       "geography": 31,
       "lifeScience": 32,
       "physicalScience": 15,
       "math": 15,
-      "total": 93
+      "total": 121
     },
     {
       "name": "Sneha Verma",
@@ -864,12 +864,12 @@ let resultsData = [
       "roll": "A2/0964/2023",
       "hindi": 17,
       "english": 39,
-      "history": null,
-      "geography": null,
+      "history": 29,
+      "geography": 20,
       "lifeScience": 15,
       "physicalScience": 16,
       "math": 0,
-      "total": 87
+      "total": 136
     },
     {
       "name": "Devansh Singh",
@@ -891,9 +891,9 @@ let resultsData = [
       "history": 27,
       "geography": 17,
       "lifeScience": null,
-      "physicalScience": null,
+      "physicalScience": 18,
       "math": 7,
-      "total": 86
+      "total": 104
     },
     {
       "name": "Rishu Maurya",
@@ -936,12 +936,12 @@ let resultsData = [
       "roll": "A2/0898/2023",
       "hindi": 10,
       "english": 37,
-      "history": null,
-      "geography": null,
+      "history": 5,
+      "geography": 3,
       "lifeScience": 9,
       "physicalScience": 9,
       "math": 15,
-      "total": 80
+      "total": 88
     },
     {
       "name": "Kabya Shaw",
@@ -960,12 +960,12 @@ let resultsData = [
       "roll": "A2/0863/2023",
       "hindi": 17,
       "english": 26,
-      "history": null,
+      "history": 11,
       "geography": 12,
       "lifeScience": 6,
       "physicalScience": 9,
       "math": 6,
-      "total": 76
+      "total": 87
     },
     {
       "name": "Rishika Srivastav",
@@ -996,12 +996,12 @@ let resultsData = [
       "roll": "A2/0897/2023",
       "hindi": 12,
       "english": 38,
-      "history": null,
+      "history": 6,
       "geography": 6,
       "lifeScience": 7,
       "physicalScience": 3,
       "math": 7,
-      "total": 73
+      "total": 79
     },
     {
       "name": "Rohan Shaw",
@@ -1020,12 +1020,12 @@ let resultsData = [
       "roll": "A2/0864/2023",
       "hindi": 12,
       "english": 31,
-      "history": null,
+      "history": 13,
       "geography": 8,
       "lifeScience": 9,
       "physicalScience": 8,
       "math": 2,
-      "total": 70
+      "total": 83
     },
     {
       "name": "Aditya Singh",
@@ -1080,12 +1080,12 @@ let resultsData = [
       "roll": "A2/0968/2023",
       "hindi": 8,
       "english": 32,
-      "history": null,
-      "geography": null,
+      "history": 5,
+      "geography": 6,
       "lifeScience": 2,
       "physicalScience": 4,
       "math": 3,
-      "total": 49
+      "total": 60
     },
     {
       "name": "Rokshar Khatoon",
@@ -1104,12 +1104,12 @@ let resultsData = [
       "roll": "A2/0908/2023",
       "hindi": 12,
       "english": 26,
-      "history": null,
+      "history": 6,
       "geography": null,
       "lifeScience": 3,
       "physicalScience": null,
       "math": null,
-      "total": 41
+      "total": 47
     },
     {
       "name": "Shafaat Akhtar",
@@ -1140,12 +1140,12 @@ let resultsData = [
       "roll": "A2/0959/2023",
       "hindi": 13,
       "english": null,
-      "history": null,
+      "history": 2,
       "geography": 6,
       "lifeScience": 4,
       "physicalScience": 6,
       "math": 3,
-      "total": 32
+      "total": 34
     },
     {
       "name": "Simon Poddar",
@@ -1188,12 +1188,12 @@ let resultsData = [
       "roll": "A2/0941/2023",
       "hindi": 12,
       "english": null,
-      "history": null,
+      "history": 11,
       "geography": 7,
       "lifeScience": 4,
       "physicalScience": 3,
       "math": null,
-      "total": 26
+      "total": 37
     },
     {
       "name": "Saiba Parveen",
@@ -1236,12 +1236,12 @@ let resultsData = [
       "roll": "A2/0943/2023",
       "hindi": null,
       "english": null,
-      "history": null,
-      "geography": null,
+      "history": 12,
+      "geography": 7,
       "lifeScience": null,
       "physicalScience": 14,
       "math": 6,
-      "total": 20
+      "total": 39
     },
     {
       "name": "Ritika Gupta",
@@ -1251,21 +1251,21 @@ let resultsData = [
       "history": null,
       "geography": 8,
       "lifeScience": null,
-      "physicalScience": 11,
+      "physicalScience": null,
       "math": null,
-      "total": 19
+      "total": 8
     },
     {
       "name": "Insha Shabbir",
       "roll": "A2/0871/2023",
       "hindi": null,
       "english": null,
-      "history": null,
+      "history": 9,
       "geography": 7,
       "lifeScience": 5,
       "physicalScience": 3,
       "math": 1,
-      "total": 16
+      "total": 25
     },
     {
       "name": "Simran Gupta",
